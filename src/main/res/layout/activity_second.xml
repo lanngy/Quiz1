@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quiz.second">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/page1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wallpaper"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text=" 1) What is a User Interface?"/>
+
+
+                <CheckBox
+                    android:id="@+id/ask1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) is how the process works"/>
+
+                <CheckBox
+                    android:id="@+id/ask1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) is everything that the user can see and interact with"/>
+
+                <CheckBox
+                    android:id="@+id/ask1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) is a plan structure, which gives the user some information"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="2)A layout is ... "/>
+
+                <CheckBox
+                    android:id="@+id/ask2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) the visual structure for a user interface"/>
+                <CheckBox
+                    android:id="@+id/ask2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) an image, which fit your app"/>
+
+                <CheckBox
+                    android:id="@+id/ask2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) displays a list of scrollable items"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="3) Declare wrap_content and match_parent"   />
+
+
+                <CheckBox
+                    android:id="@+id/ask3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) wrap_content: The border of the child view expands to match the border of the parent view.
+                    match_parent: The border of the child view wraps snugly around its own content." />
+                <CheckBox
+                    android:id="@+id/ask3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) fill_parent:The border of the child view expands to match the border of the parent view.
+                    wrap_content: The border of the child view wraps snugly around its own content."/>
+                <CheckBox
+                    android:id="@+id/ask3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) match_parent: The border of the child view expands to match the border of the parent view.
+                    wrap_content: The border of the child view wraps snugly around its own content." />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="4) What is a Linear Layout?"/>
+
+                <CheckBox
+                    android:id="@+id/ask4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginBottom="5sp"
+                    android:text="A) is a view group that aligns all children in a single direction, vertically or horizontally"  />
+
+                <CheckBox
+                    android:id="@+id/ask4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) do not respect margins between children"/>
+
+                <CheckBox
+                    android:id="@+id/ask4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) all children of a LinearLayout are unstacked one after the other"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="5) Define Relative Layout"/>
+
+                <CheckBox
+                    android:id="@+id/ask5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) can not eliminate nested view groups"/>
+                <CheckBox
+                    android:id="@+id/ask5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) a view group that displays child views in relative positions"/>
+
+                <CheckBox
+                    android:id="@+id/ask5c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) is a view group that displays a list of scrollable items"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="6) What is the difference between horizontal and vertical?" />
+                <CheckBox
+                    android:id="@+id/ask6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) vertical  will only have one child per row and a horizontal list will only be one row high"/>
+
+                <CheckBox
+                    android:id="@+id/ask6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) horizontal will only have one child per row and a vertical list will only be one row high " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="7) Which view do we use for our picture?"/>
+
+                <CheckBox
+                    android:id="@+id/ask7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="A) imageview"/>
+
+                <CheckBox
+                    android:id="@+id/ask7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="casual"
+                    android:text=" B) imageView "/>
+
+                <CheckBox
+                    android:id="@+id/ask7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="C) ImageView  "/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="8) Which view do we use for our text?"/>
+
+
+                <CheckBox
+                    android:id="@+id/ask8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="A) textView  "/>
+
+                <CheckBox
+                    android:id="@+id/ask8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="casual"
+                    android:text="B) TextView    "/>
+
+                <CheckBox
+                    android:id="@+id/ask8c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="C) textview    "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="9) Which set enables us to create various fonts?     "/>
+
+                <CheckBox
+                    android:id="@+id/ask9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="A) fontfamily    "/>
+
+                <CheckBox
+                    android:id="@+id/ask9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="casual"
+                    android:text="B) fontFamily    "/>
+
+                <CheckBox
+                    android:id="@+id/ask9c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="C) FontFamily    "/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="10) And the difference between margin and padding?     "/>
+
+                <CheckBox
+                    android:id="@+id/ask10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) Padding is the space inside the border, between the border and the actual view's content.
+                    Margins are the spaces outside the border, between the border and the other elements next to this view"
+                    android:layout_marginBottom="10sp"/>
+
+                <CheckBox
+                    android:id="@+id/ask10b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) Margin is the space inside the border, between the border and the actual view's content.
+                    Padding are the spaces outside the border, between the border and the other elements next to this view
+"                   android:layout_marginBottom="10sp"/>
+
+
+                <CheckBox
+                    android:id="@+id/ask10c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) Padding is outside of a View.
+                    Margin is inside of a View"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="11) Which set recognizes the picture as ImageView, which we had downloaded?"/>
+
+                <CheckBox
+                    android:id="@+id/ask11a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) android:src    "/>
+
+                <CheckBox
+                    android:id="@+id/ask11b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) android:scr    "/>
+
+                <CheckBox
+                    android:id="@+id/ask11c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) android:srd    "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="12) Clarify the procedure of editing ImageView"/>
+
+                <CheckBox
+                    android:id="@+id/ask12a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) Click res -> click drawable -> rightClick -> Show in Explorer -> copy the chosen
+            picture -> paste in order drawable"
+                    android:layout_marginBottom="10sp"/>
+
+                <CheckBox
+                    android:id="@+id/ask12b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) Click res -> click layout -> rightClick -> Show in Explorer -> copy the chosen picture
+            -> paste in order drawable"
+                    android:layout_marginBottom="10sp"/>
+
+                <CheckBox
+                    android:id="@+id/ask12c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) Click res -> click values -> rightCLick -> Synchronize -> copy the chosen picture ->
+            paste in order drawable"
+                    android:layout_marginBottom="10sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="13) Which set works for horizontal and vertical?"/>
+
+                <CheckBox
+                    android:id="@+id/ask13a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="A) gravitation"/>
+
+                <CheckBox
+                    android:id="@+id/ask13b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="B) gravity"/>
+
+                <CheckBox
+                    android:id="@+id/ask13c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="C) orientation"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="Checkanswers"
+                    android:text="Result"
+                    android:fontFamily="sans-serif-smallcaps"/>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
